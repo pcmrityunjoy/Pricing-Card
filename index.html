@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+    <head>
+
+      <meta charset="utf-8">
+      <title> Pricing - Advertise with us </title>
+      <link rel='stylesheet' href='style.css'>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"  rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        <script>
+          $(document).ready(function(){
+
+// Card 1 - Hover effect
+            $("#card1").hover(
+                                      function() {
+                                                $("#card2").animate({opacity: 0.3});
+                                                $("#card3").animate({opacity: 0.3});
+
+                                      },
+
+                                      function() {
+                                                $("#card2").animate({opacity: 1  });
+                                                $("#card3").animate({opacity: 1  });
+                                                  }
+
+                                );
+
+
+// Card 2 - Hover effect
+
+$("#card2").hover(
+                          function() {
+                                    $("#card1").animate({opacity: 0.3});
+                                    $("#card3").animate({opacity: 0.3});
+
+                          },
+
+                          function() {
+                                    $("#card1").animate({opacity: 1  });
+                                    $("#card3").animate({opacity: 1  });
+                                      }
+
+                    );
+
+                    // Card 3 - Hover effect
+
+                    $("#card3").hover(
+                                              function() {
+                                                        $("#card1").animate({opacity: 0.3});
+                                                        $("#card2").animate({opacity: 0.3});
+                                              },
+
+                                              function() {
+                                                        $("#card1").animate({opacity: 1  });
+                                                        $("#card2").animate({opacity: 1  });
+                                                          }
+                                        );
+                                    });
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <section>
+          <h1> Advertise With Us </h1><br></br>
+
+             <div class = "container">
+
+               <div class = 'row'>
+                 <div  id = "card1" class = 'col-sm-4  text-center'>
+                    <div class='card'>
+                      <div class="title">
+                        <i class="fas fa-swimmer"></i>
+                        <h1> Plan 1 </h1>
+                      </div>
+
+                      <div class="price">
+                        <i class="fas fa-rupee-sign">XXXX</i>
+                        <h2> STARTER </h2>
+                      </div>
+
+                      <div class = "option">
+                          <li> Featured Blog post     <i class="fas fa-check-circle"></i> </li>
+                          <li> Social Media Campaign  <i class="fas fa-check-circle"></i> </li>
+                          <li> Area Search Visibility <i class="fas fa-check-circle"></i> </li>
+                          <li> City Search Visibility <i class="fas fa-times-circle"></i> </li>
+
+                          <li> Home Page Visibility under 'Featured Projects'<i class="fas fa-times-circle"></i> </li>
+                          <li> Minimum Guranteed Leads per month <i class="fas fa-times-circle"></i> </li>
+                          <li> Big Banner on Home Page <i class="fas fa-times-circle"></i> </li>
+                      </div>
+                      <a href="#"> UNLOCK </a>
+                    </div>
+                 </div>
+
+                 <div  id = "card3" class = 'col-sm-4  text-center'>
+                    <div class='card  text-center'>
+                      <div class="title">
+                        <i class="fas fa-rocket"></i>
+                        <h1> Plan 3 </h1>
+                      </div>
+
+                      <div class="price">
+                        <i class="fas fa-rupee-sign">XXXX</i>
+                        <h2> ULTIMATE </h2>
+                      </div>
+
+                      <div class = "option">
+                          <li> Featured Blog post     <i class="fas fa-check-circle"></i> </li>
+                          <li> Social Media Campaign  <i class="fas fa-check-circle"></i> </li>
+                          <li> Area Search Visibility <i class="fas fa-check-circle"></i> </li>
+                          <li> City Search Visibility <i class="fas fa-check-circle"></i> </li>
+
+                          <li> Home Page Visibility under 'Featured Projects'<i class="fas fa-check-circle"></i> </li>
+                          <li> Minimum Guranteed Leads per month <i class="fas fa-check-circle"></i> </li>
+                          <li> Big Banner on Home Page <i class="fas fa-check-circle"></i> </li>
+                      </div>
+                      <a href="#"> UNLOCK </a>
+                    </div>
+                 </div>
+
+
+                <div  id = "card2" class = 'col-sm-4  text-center'>
+                    <div class="card">
+                      <div class="title">
+                        <i class="fas fa-running"></i>
+                        <h1> Plan 2 </h1>
+                      </div>
+                      <div class="price">
+                        <i class="fas fa-rupee-sign">XXXX</i>
+                        <h2> DELIGHT </h2>
+                      </div>
+
+                      <div class = "option">
+                          <li> Featured Blog post     <i class="fas fa-check-circle"></i> </li>
+                          <li> Social Media Campaign  <i class="fas fa-check-circle"></i> </li>
+                          <li> Area Search Visibility <i class="fas fa-check-circle"></i> </li>
+                          <li> City Search Visibility <i class="fas fa-check-circle"></i> </li>
+
+                          <li> Home Page Visibility under 'Featured Projects'<i class="fas fa-check-circle"></i> </li>
+                          <li> Minimum Guranteed Leads per month <i class="fas fa-check-circle"></i> </li>
+                          <li> Big Banner on Home Page <i class="fas fa-times-circle"></i> </li>
+                      </div>
+                      <a href="#"> UNLOCK </a>
+                    </div>
+                 </div>
+               </div>
+               
+<article> Hello world!</article>
+        </section>
+
+    </body>
+</html>
